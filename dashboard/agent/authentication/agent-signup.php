@@ -117,7 +117,7 @@ class AgentController
                 $_SESSION['status'] = "Please check your Email";
                 $_SESSION['status_code'] = "success";
                 $_SESSION['status_timer'] = 40000;
-                header('Location: ../../../signin.php');
+                header('Location: ../../../signin');
                 exit();
             } else {
                 // Handle file upload error here

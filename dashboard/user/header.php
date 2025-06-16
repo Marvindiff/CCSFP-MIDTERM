@@ -14,12 +14,12 @@ if (isset($_GET['index'])) {
         $_SESSION['status'] = 'Please sign in or create an account! to view property details!';
         $_SESSION['status_code'] = 'error';
         $_SESSION['status_timer'] = 100000;
-        header('Location: ../../signin.php');
+        header('Location: ../../signin');
         exit();
     }
 } else {
     if (!$user->isUserLoggedIn()) {
-        header('Location: ../../signin.php');
+        header('Location: ../../signin');
         exit();
     }
 }

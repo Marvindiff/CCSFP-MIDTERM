@@ -173,7 +173,7 @@ $all_days = $stmt_all_days->fetchAll(PDO::FETCH_ASSOC);
                                     <ul class="navigation clearfix">
                                         <li class=""><a href="./"><span>Home</span></a></li>
                                         <li class="current"><a href="find-home"><span>Find A Home</span></a></li>
-                                        <li class=""><a href="about-us.php"><span>About Us</span></a></li>
+                                        <li class=""><a href="about-us"><span>About Us</span></a></li>
                                         <li class=""><a href="contact-us"><span>Contact Us</span></a></li>
                                         <li class=""><a href="settings"><span>Settings</span></a></li>
                                     </ul>
@@ -639,7 +639,7 @@ $all_days = $stmt_all_days->fetchAll(PDO::FETCH_ASSOC);
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list class">
-                                        <li><a href="about-us.php">About Us</a></li>
+                                        <li><a href="about-us">About Us</a></li>
                                         <li><a href="find-home">Find Home</a></li>
                                         <li><a href="contact-us">Contact Us</a></li>
                                     </ul>

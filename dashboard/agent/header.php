@@ -9,7 +9,7 @@ $user = new AGENT();
 
 if(!$user->isUserLoggedIn())
 {
- $user->redirect('../../signin.php');
+ $user->redirect('../../signin');
 }
 
 // retrieve user data

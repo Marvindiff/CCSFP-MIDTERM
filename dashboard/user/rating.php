@@ -119,8 +119,8 @@ $property_data = $stmt->fetch(PDO::FETCH_ASSOC);
                                     <ul class="navigation clearfix">
                                         <li class=""><a href="./"><span>Home</span></a></li>
                                         <li class=""><a href="find-home"><span>Find A Home</span></a></li>
-                                        <li class=""><a href="about-us.php"><span>About Us</span></a></li>
-                                        <li class=""><a href="contact-us.php"><span>Contact Us</span></a></li>
+                                        <li class=""><a href="about-us"><span>About Us</span></a></li>
+                                        <li class=""><a href="contact-us"><span>Contact Us</span></a></li>
                                         <li class=""><a href="settings"><span>Settings</span></a></li>
                                     </ul>
                                 </div>
@@ -319,9 +319,9 @@ $property_data = $stmt->fetch(PDO::FETCH_ASSOC);
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list class">
-                                        <li><a href="about-us.php">About Us</a></li>
+                                        <li><a href="about-us">About Us</a></li>
                                         <li><a href="find-home">Find Home</a></li>
-                                        <li><a href="contact-us.php">Contact Us</a></li>
+                                        <li><a href="contact-us">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
