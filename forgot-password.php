@@ -62,7 +62,7 @@ include_once 'dashboard/user/authentication/user-forgot-password.php';
                             <li><a href="<?php echo $config->getSystemInstagram() ?>"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                         <div class="sign-box">
-                            <a href="signin"><i class="fas fa-user"></i>Sign In</a>
+                            <a href="signin.php"><i class="fas fa-user"></i>Sign In</a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@ include_once 'dashboard/user/authentication/user-forgot-password.php';
                                             </div>
                                         </form>
                                         <div class="othre-text">
-                                            <p>Back to <a href="signin">Sign In</a></p>
+                                            <p>Back to <a href="signin.php">Sign In</a></p>
                                         </div>
                                     </div>
                                 </div>

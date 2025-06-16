@@ -5,7 +5,7 @@ $config = new SystemConfig();
 $main_url = new MainUrl();
 if(empty($_GET['id']) && empty($_GET['code']))
 {
- $user->redirect('signin');
+ $user->redirect('signin.php');
 }
 
 if(isset($_GET['id']) && isset($_GET['code']))
@@ -117,7 +117,7 @@ if(isset($_GET['id']) && isset($_GET['code']))
                             <li><a href="<?php echo $config->getSystemInstagram() ?>"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                         <div class="sign-box">
-                            <a href="signin"><i class="fas fa-user"></i>Sign In</a>
+                            <a href="signin.php"><i class="fas fa-user"></i>Sign In</a>
                         </div>
                     </div>
                 </div>
