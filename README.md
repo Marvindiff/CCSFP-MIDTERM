@@ -1,5 +1,5 @@
 # CCSFP-MIDTERM
-Pair: Alessandra Alejandro and Christian Ocampo
+Pair: Marvin Pamintuan and Elijah Gonzales
 
 git commands:
 git status
